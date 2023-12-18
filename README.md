@@ -5,7 +5,7 @@ Additionally, the continuum plugin is added to save and recover tmux sessions ac
 ### Install
 `git clone https://github.com/6sp33d/tmuxConfigSetup.git`
 
-`cd tmuxLoggingSetup && chmod +x installer.sh setup.sh`
+`cd tmuxConfigSetup && chmod +x installer.sh setup.sh`
 
 `./installer.sh`
 

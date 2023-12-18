@@ -19,13 +19,15 @@ cat > ~/.tmux.conf << EOF
 set-option -g default-command $SHELL
 
 # increase history size (Be careful making this too large)
-set -g history-limit 30000
+set -g history-limit 999999
 
 # List of plugins
 # to enable a plugin, use the 'set -g @plugin' syntax:
 set -g @plugin 'tmux-plugins/tpm'
 set -g @plugin 'tmux-plugins/tmux-sensible'
 set -g @plugin 'tmux-plugins/tmux-logging'
+set -g @plugin 'tmux-plugins/tmux-resurrect'
+set -g @plugin 'tmux-plugins/tmux-continuum'
 
 # Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
 run '~/.tmux/plugins/tpm/tpm'

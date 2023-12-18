@@ -1,8 +1,9 @@
 # tmuxLoggingSetup
 A pair of scripts intended to quickly set up logging capabilities for Tmux utilizing Tmux Plugin Manager (https://github.com/tmux-plugins/tpm)
+Additionally, the continuum plugin is added to save and recover tmux sessions across reboots (https://github.com/tmux-plugins/tmux-continuum)
 
 ### Install
-`git clone https://github.com/EOsinski22/tmuxLoggingSetup.git`
+`git clone https://github.com/6sp33d/tmuxConfigSetup.git`
 
 `cd tmuxLoggingSetup && chmod +x installer.sh setup.sh`
 
